@@ -2,7 +2,7 @@
 
 ## Overview
 
-### If you prefer in video format: https://drive.google.com/file/d/1gSWFkv4IVz98mUl5dXSIonDRnN0L3tXa/view?usp=drive_link
+### Here's a quick video demo: https://drive.google.com/file/d/1gSWFkv4IVz98mUl5dXSIonDRnN0L3tXa/view?usp=drive_link
 
 This project provides a full-stack application that displays the top 10 player rankings and includes various functionalities like adding a new player, batch insertion of multiple players, clearing the database, and exporting the top 10 players as a CSV file. The backend is built using **ASP.NET Core** with a **SQL Server database**, while the frontend is developed using **React.js**.
 
