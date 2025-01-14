@@ -1,0 +1,68 @@
+.player-card-horizontal {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem; /* Smaller padding to reduce height */
+}
+
+.player-card-image {
+  width: 60px; /* Reduced size */
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid; /* Dynamic border */
+}
+
+.player-card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.player-card-column {
+  flex: 1; /* Ensures even spacing */
+  text-align: left;
+}
+
+.player-card-name-column {
+  flex: 2; /* Larger space for the name */
+}
+
+.player-card-score-column,
+.player-card-date-column,
+.player-card-stat-column {
+  flex: 1;
+}
+
+.player-card-name {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap; /* Prevents wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Handles long names gracefully */
+}
+
+.player-card-date,
+.player-card-score,
+.player-card-stat {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.player-card-score-value,
+.player-card-stat-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.container-player-cards {
+  padding: 1rem;
+}
